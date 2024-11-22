@@ -1,0 +1,152 @@
+
+body {
+    background: #006563;
+    margin: 20;
+    padding: 15px;
+}
+
+h1, h2 {
+    font-family: impact; 
+    color: #C3D5D5; 
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1%;
+} 
+p, ul, ol {
+    font-family: impact; 
+    color: #C3D5D5; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1%;
+}
+a {
+    font-family: impact; 
+    color: #C3D5D5;
+    
+    
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    background: #344040;
+    padding: 2%;
+    border-radius: 20px;
+    margin: 20px;
+    margin-right: 35%;
+}
+.content-right {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 20%;
+    background: #344040;
+    padding: 2%;
+    margin: 20px;
+    border-radius: 20px;
+    margin: 18px;
+    
+}
+.photo {
+    max-width: 2560px;
+    border-radius: 20px;
+}
+.header{
+    text-align:right;
+    background: #344040;
+    border-radius: 20px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    white-space: 30px;
+    font-size: 30px;
+}
+.container{
+    background: #00b5b5;
+    text-align: center;
+}
+.block{
+    width:200px;
+    height:200px;
+    background: blue;
+    margin:0 auto;
+}
+.photo_center{
+    width: 200px;
+    display:block;
+    margin:-155px auto;
+}
+.container-2{
+    background:gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+}
+.block-2{
+    width:200px;
+    height:200px;
+    background: #008968;
+}
+.container-3{
+    background: gray;
+    border: dashed rgb(10, 255, 255);
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-3{
+    height:200px;
+    width:200px;
+    background: darkblue;
+    margin-bottom:30px;
+}
+.container-4{
+    position:relative;
+    background:white;
+    border: 8px solid black;
+    height:500px;
+}
+.square {
+    position: absolute;
+    border: solid;
+}
+
+.red {
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+}
+
+.blue {
+    border-color: blue;
+    width: 100px;
+    height: 100px;
+    left: 170px;
+    top: 170px;
+}
+
+.green {
+    border-color: green;
+    width: 100px;
+    height: 100px;
+    left: 240px;
+    top: 240px;
+}
+
+.photo_mod {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 30px;
+    right: 30px;
+}
